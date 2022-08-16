@@ -52,6 +52,7 @@ public class JanelaListar implements Initializable{
     private void mostrarDetalhes(MouseEvent evento){
         Veiculo veiculo = ltvVeiculos.getSelectionModel().getSelectedItem();
 
+        //verifica se usuariou clicou em algo para ir buscar os dados e mostrar na tela
         if(veiculo != null){
             taDetalhes.clear();
             taDetalhes.appendText("Placa: "+veiculo.getPlaca()+"\n");

@@ -23,7 +23,7 @@
       <ListView fx:id="ltvVeiculos" onMouseClicked="#mostrarDetalhes"/>
       <VBox spacing="10.0">
         <TextArea fx:id="taDetalhes" editable="false"/>
-        <Button text="Voltar" onAction="#voltar"/>
+        
       </VBox>
       
 
